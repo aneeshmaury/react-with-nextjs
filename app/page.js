@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import Main from './main'
+import Navbar from './navbar'
 
 export default function Home() {
   return (
-   <Main/>
+    <Navbar/>
   )
 }
