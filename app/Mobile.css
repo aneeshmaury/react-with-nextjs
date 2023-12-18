@@ -8,5 +8,16 @@
      display: none;
 
     }
+    .container{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    }
    
+ }
+ .heroimage{
+    box-shadow: 3 10px 10px rgba(244, 14, 14, 0.1);
  }
