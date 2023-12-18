@@ -1,0 +1,12 @@
+@media (max-width: 576px) { 
+    .brand{
+        text-align: center;
+        font-weight: 900;
+
+    }
+    .link{
+     display: none;
+
+    }
+   
+ }
