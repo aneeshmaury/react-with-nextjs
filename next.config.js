@@ -1,13 +1,9 @@
 /** @type {import('next').NextConfig} */
-const isProd = (process.env.NODE_ENV = "production");
 const nextConfig = {
-    basePath: isProd ? "/react-with-nextjs" : "",
-  output: "export",
-  distDir: "dist",
-  images: {
-    unoptimized: true,
-  }
-}
+  basePath: process.env.NODE_ENV === "production" ? "/react-with-nextjs" : "",
+  output: process.env.NODE_ENV === "production" ? "export" : "standalone", // Set a default value for development
+  distDir: process.env.NODE_ENV === "production" ? "dist" : ".next", // Set a default value for development
+  images: {},
+};
 
 module.exports = nextConfig;
-
