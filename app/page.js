@@ -1,10 +1,10 @@
 
-import Navbar from './navbar'
-import Herosection from './herosection';
- import './App.css'; 
- import './Mobile.css'
-import HoverRating from './hoverrating';
-import Sociallink from './sociallink';
+import Navbar from '@/app/Navbar'
+import Herosection from '@/app/herosection';
+ import '@/app/App.css'; 
+ import '@/app/Mobile.css'
+import HoverRating from '@/app/hoverrating';
+import Sociallink from '@/app/sociallink';
 export default function Home() {
   return (
     <div>
