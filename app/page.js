@@ -1,13 +1,10 @@
 
-import Navbar from './Navbar'
-import Herosection from './Herosection';
+import Navbar from './navbar'
+import Herosection from './herosection';
  import './App.css'; 
  import './Mobile.css'
-import HoverRating from './HoverRating';
-import Sociallink from './Sociallink';
-
-import { ClassNames } from '@emotion/react';
-
+import HoverRating from './hoverrating';
+import Sociallink from './sociallink';
 export default function Home() {
   return (
     <div>
@@ -17,7 +14,7 @@ export default function Home() {
  <div className="hoverrating absolute left-[850px] top-[500px] bg-zinc-300 h-12 w-60 rounded-lg pl-5 pt-3">
   < HoverRating/>
  </div>
- <div className="sociallink text-orange-300 absolute left-60 top-[500px]">
+ <div className="sociallink text-orange-300 absolute left-[100px] top-[500px]">
   <Sociallink/>
  </div>
  
